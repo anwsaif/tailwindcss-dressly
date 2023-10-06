@@ -3,5 +3,31 @@
 @tailwind utilities;
 
 .nav-line {
-  @apply block mb-[3.75px] bg-neutral-700 h-[1.25px] w-[14.583px];
+  @apply block mb-[3.75px] bg-neutral-700 h-[1.25px] w-[14.583px] transition duration-200;
+}
+
+.nav-active > span:nth-child(1){
+  @apply origin-top-right -rotate-45;
+}
+
+.nav-active > span:nth-child(2){
+  @apply scale-0; 
+}
+
+.nav-active > span:nth-child(3){
+  @apply origin-bottom-right rotate-45;
+}
+
+#nav-menu ul:nth-child(2) li {
+  @apply lg:w-6;
+}
+
+#nav-menu ul:nth-child(2) li:hover {
+  @apply opacity-50;
+}
+
+@layer components {
+  #nav-menu li {
+    @apply mb-3 hover:text-primary-500 lg:mb-0;
+  } 
 }

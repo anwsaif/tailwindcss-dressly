@@ -11,24 +11,53 @@
     <!-- Header Start -->
     <header class="mt-4">
       <div class="container mx-auto">
-        <div class="flex justify-between items-center px-4">
-          <div class="flex items-center">
-            <button id="nav-button" class="">
-              <span class="nav-line"></span>
+        <div class="flex justify-between items-center px-4 lg:flex-row-reverse">
+          <div class="flex items-center lg:w-[62%]">
+            <button id="nav-button" class="lg:hidden">
+              <span class="nav-line origin-top-right"></span>
               <span class="nav-line w-[7.92px_!important]"></span>
-              <span class="nav-line"></span>
+              <span class="nav-line origin-bottom-right"></span>
             </button>
+            <nav id="nav-menu" class="absolute top-12 bg-white shadow p-3 pl-0 w-48 rounded font-extralight text-sm shadow-[1px_1px_1px_0_rgba(0,0,0,0.1),_0_2px_4px_-2px_rgba(0,0,0,0.1)] hidden text-neutral-700 lg:flex lg:static lg:w-full lg:justify-between lg:shadow-none">
+              <ul class="mb-6 lg:flex lg:mb-0 lg:items-center lg:justify-between lg:gap-x-8 lg:font-semibold lg:text-base">
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Sales</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+              <ul class="lg:flex lg:gap-x-6">
+                <li>
+                  <a href="#" class="flex gap-x-2">
+                    <img src="./src/images/search.svg" alt="Search" class="w-5">
+                    <span class="lg:hidden">Search</span>
+                  </a>
+                </li>
+                <li class="hidden lg:block">
+                  <a href="#" class="">
+                    <img src="./src/images/bag.svg" alt="Bag" class="w-5">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="flex gap-x-2">
+                    <img src="./src/images/user.svg" alt="User" class="w-5">
+                    <span class="lg:hidden">User Settings</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
           </div>
           <div>
             <img src="./src/images/logo.svg" alt="Brand Logo">
           </div>
-          <a href="#">
+          <a href="#" class="lg:hidden">
             <img src="./src/images/bag.svg" alt="Bag" class="w-5 hover:opacity-50">
           </a>
         </div>
       </div>
     </header>
     <!-- Header End -->
+
+    <!-- Home Start -->
     <section id="home">
       <div class="container mx-auto">
         <div class="flex flex-wrap gap-y-8 py-8 px-4 justify-center">
@@ -59,5 +88,7 @@
       </div>
     </section>
     <!-- Brand End -->
+    <script src="./src/js/script.js">
+    </script>
   </body>
 </html>
