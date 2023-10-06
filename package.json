@@ -9,7 +9,7 @@
     "serv": "php -S localhost:8000"
   },
   "author": "",
-  "license": "ISC",
+  "license": "CC-BY-1.0",
   "devDependencies": {
     "tailwindcss": "^3.3.3"
   }
