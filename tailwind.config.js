@@ -10,12 +10,16 @@ module.exports = {
         },
         neutral: {
           100: "#F4F4F4",
+          300: "#BDBDBD",
           900: "#12070B",
           500: "#262626",
           700: "#1B1314"
         },
         background: {
           900: "#E6E6E6"
+        },
+        danger: {
+          500: "#FF4530"
         }
       }
     },

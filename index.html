@@ -115,16 +115,29 @@
     <!-- Top Selections End -->
 
     <!-- Best Sellers Start -->
-    <section>
+    <section class="overflow-hidden">
       <div class="container mx-auto">
         <div class="flex flex-col px-4 py-8 gap-y-4">
           <div class="flex justify-between items-baseline">
             <h2 class="text-neutral-900 font-semibold text-2xl">Best Sellers</h2>
             <a href="#" class="text-primary-500 text-sm hover:opacity-50 font-semibold">See All</a>
           </div>
-          <div class="flex gap-x-2">
-            <div class="rounded-lg border border-background-900 p-2 gap-2 flex flex-col">
-              <img src="./src/images/best-1.jpg" alt="Sneaker" class="rounded">
+          <div class="flex gap-x-2 w-[688px] md:w-full">
+            <div class="rounded-lg border border-background-900 p-2 gap-2 flex flex-col w-1/4">
+              <img src="./src/images/best-1.jpg" alt="Sneaker" class="rounded w-full">
+              <div class="flex flex-col gap-1 px-2">
+                <span class="text-neutral-900 font-medium">Sneaker</span>
+                <div class="flex flex-col gap-1">
+                  <div class="flex gap-1">
+                    <img src="./src/images/star.svg" alt="Star" class="w-5">
+                    <p class="text-xs text-neutral-500">4.5 <span class="text-neutral-300">(325)</span></p>
+                  </div>
+                  <div class="flex gap-1">
+                    <span class="text-neutral-900 text-xs">Rp 965.500</span>
+                    <span class="text-danger-500 text-[10px] line-through">Rp 1.097.500</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
