@@ -61,9 +61,7 @@
     <section id="home">
       <div class="container mx-auto">
         <div class="flex flex-wrap gap-y-8 py-8 px-4 justify-center lg:py-16 lg:flex-row-reverse lg:gap-x-6 lg:items-center lg:flex-nowrap">
-          <div class="lg:w-1/2">
-            <img src="./src/images/hero.png" alt="Hero Image">
-          </div>
+          <img src="./src/images/hero.png" alt="Hero Image" class="lg:w-1/2">
           <div class="lg:w-1/2">
             <h1 class="text-[28px] font-semibold text-neutral-900 leading-[120%] mb-2 lg:text-[52.372px] lg:leading-[110%] tracking-[-1.047px] lg:mb-6">Discover the Latest Fashion Trends</h1>
             <p class="text-[14px] text-neutral-500 leading-[140%] mb-6 lg:mb-10 lg:text-base">From stylish dresses to trendy tops and must-have accessories, we have everything you need to stay on top of the latest fashion trends. Our expertly curated collection features the hottest styles from top designers, so you can always find the perfect look for any occasion. Shop now and discover your new favorite fashion pieces.</p>
@@ -92,29 +90,47 @@
     <!-- Top Selections Start -->
     <section>
       <div class="container mx-auto">
-        <div class="flex flex-col gap-4 px-4">
-          <h2 class="text-2xl text-neutral-900 font-semibold">Top Selections</h2>
-          <div class="flex flex-wrap gap-2 ">
-            <div class="relative overflow-hidden rounded-[6.62px]">
+        <div class="flex flex-col gap-4 px-4 lg:gap-8 lg:py-20">
+          <h2 class="text-2xl text-neutral-900 font-semibold lg:text-5xl">Top Selections</h2>
+          <div class="flex flex-wrap gap-2 md:flex-nowrap">
+            <div class="relative overflow-hidden rounded-[6.62px] w-full">
               <img src="./src/images/top-1.jpg" alt="Elegant Eid Attire">
               <div class="w-full h-full bg-neutral-500 opacity-50 absolute top-0"></div>
-              <span class="text-neutral-100 text-[23.17px] font-semibold -tracking-[0.463px] absolute bottom-10 left-16">Elegant Eid Attire</span>
+              <span class="text-neutral-100 text-[23.17px] font-semibold -tracking-[0.463px] absolute bottom-10 left-1/2 -translate-x-1/2 w-full text-center lg:text-[26.413px]">Elegant Eid Attire</span>
             </div>
-            <div class="relative overflow-hidden rounded-[6.62px]">
+            <div class="relative overflow-hidden rounded-[6.62px] w-full">
               <img src="./src/images/top-2.jpg" alt="Accessory Essentials">
               <div class="w-full h-full bg-neutral-500 opacity-50 absolute top-0"></div>
-              <span class="text-neutral-100 text-[23.17px] font-semibold -tracking-[0.463px] absolute bottom-10 left-16">Accessory Essentials</span>
+              <span class="text-neutral-100 text-[23.17px] font-semibold -tracking-[0.463px] absolute bottom-10 left-1/2 -translate-x-1/2 w-full text-center lg:text-[26.413px]">Accessory Essentials</span>
             </div>
-            <div class="relative overflow-hidden rounded-[6.62px]">
+            <div class="relative overflow-hidden rounded-[6.62px] w-full">
               <img src="./src/images/top-3.jpg" alt="Everyday Shoes">
               <div class="w-full h-full bg-neutral-500 opacity-50 absolute top-0"></div>
-              <span class="text-neutral-100 text-[23.17px] font-semibold -tracking-[0.463px] absolute bottom-10 left-16">Everyday Shoes</span>
+              <span class="text-neutral-100 text-[23.17px] font-semibold -tracking-[0.463px] absolute bottom-10 left-1/2 -translate-x-1/2 w-full text-center lg:text-[26.413px]">Everyday Shoes</span>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Top Selections End -->
+
+    <!-- Best Sellers Start -->
+    <section>
+      <div class="container mx-auto">
+        <div class="flex flex-col px-4 py-8 gap-y-4">
+          <div class="flex justify-between items-baseline">
+            <h2 class="text-neutral-900 font-semibold text-2xl">Best Sellers</h2>
+            <a href="#" class="text-primary-500 text-sm hover:opacity-50 font-semibold">See All</a>
+          </div>
+          <div class="flex gap-x-2">
+            <div class="rounded-lg border border-background-900 p-2 gap-2 flex flex-col">
+              <img src="./src/images/best-1.jpg" alt="Sneaker" class="rounded">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Best Sellers End -->
     <script src="./src/js/script.js">
     </script>
   </body>
