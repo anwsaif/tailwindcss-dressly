@@ -4,14 +4,17 @@
     <title>Dressly</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="/dist/output.css" rel="stylesheet">
+    <link href="/src/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Poppins:wght@200;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
 
     <!-- Header Start -->
     <header class="mt-4 lg:py-12">
       <div class="container mx-auto">
-        <div class="flex justify-between items-center px-4 lg:flex-row-reverse">
+        <div class="flex justify-between items-center px-4 lg:px-8 lg:flex-row-reverse font-[poppins]">
           <div class="flex items-center lg:w-[62%]">
             <button id="nav-button" class="lg:hidden">
               <span class="nav-line origin-top-right"></span>
@@ -60,12 +63,12 @@
     <!-- Home Start -->
     <section id="home">
       <div class="container mx-auto">
-        <div class="flex flex-wrap gap-y-8 py-8 px-4 justify-center lg:py-16 lg:flex-row-reverse lg:gap-x-6 lg:items-center lg:flex-nowrap">
+        <div class="flex flex-wrap gap-y-8 py-8 px-4 lg:px-8 justify-center lg:py-16 lg:flex-row-reverse lg:gap-x-6 lg:items-center lg:flex-nowrap">
           <img src="./src/images/hero.png" alt="Hero Image" class="lg:w-1/2">
           <div class="lg:w-1/2">
-            <h1 class="text-[28px] font-semibold text-neutral-900 leading-[120%] mb-2 lg:text-[52.372px] lg:leading-[110%] tracking-[-1.047px] lg:mb-6">Discover the Latest Fashion Trends</h1>
-            <p class="text-[14px] text-neutral-500 leading-[140%] mb-6 lg:mb-10 lg:text-base">From stylish dresses to trendy tops and must-have accessories, we have everything you need to stay on top of the latest fashion trends. Our expertly curated collection features the hottest styles from top designers, so you can always find the perfect look for any occasion. Shop now and discover your new favorite fashion pieces.</p>
-            <button class="w-full bg-primary-500 font-bold py-[10px] px-5 text-neutral-900 rounded-[8px] hover:opacity-80 lg:w-1/2">Shop Now</button>
+            <h1 class="text-[28px] font-semibold text-neutral-900 leading-[120%] mb-2 lg:text-[52.372px] lg:leading-[110%] tracking-[-1.047px] lg:mb-6 font-[lora]">Discover the Latest Fashion Trends</h1>
+            <p class="text-[14px] text-neutral-500 leading-[140%] mb-6 lg:mb-10 lg:text-base font-[ubuntu]">From stylish dresses to trendy tops and must-have accessories, we have everything you need to stay on top of the latest fashion trends. Our expertly curated collection features the hottest styles from top designers, so you can always find the perfect look for any occasion. Shop now and discover your new favorite fashion pieces.</p>
+            <button class="w-full bg-primary-500 font-bold py-[10px] px-5 text-neutral-900 rounded-[8px] hover:opacity-80 lg:w-1/2 font-[ubuntu]">Shop Now</button>
           </div>
         </div>
       </div>
@@ -75,7 +78,7 @@
     <!-- Brand Start -->
     <section>
       <div class="container mx-auto ">
-        <div class="flex flex-wrap gap-x-[9px] gap-y-2 px-4 my-8 justify-center lg:my-16 lg:gap-x-6">
+        <div class="flex flex-wrap gap-x-[9px] gap-y-2 px-4 lg:px-8 my-8 justify-center lg:my-16 lg:gap-x-6">
           <img src="./src/images/Berluti-Logo.wine.svg" alt="Berluti">
           <img src="./src/images/Gucci-Logo.wine.svg" alt="Gucci">
           <img src="./src/images/Jimmy_Choo_Ltd-Logo.wine.svg" alt="Jimmy Choo Ltd">
@@ -90,7 +93,7 @@
     <!-- Top Selections Start -->
     <section>
       <div class="container mx-auto">
-        <div class="flex flex-col gap-4 px-4 lg:gap-8 lg:py-20">
+        <div class="flex flex-col gap-4 px-4 lg:px-8 lg:gap-8 lg:py-20 font-[lora]">
           <h2 class="text-2xl text-neutral-900 font-semibold lg:text-5xl">Top Selections</h2>
           <div class="flex flex-wrap gap-2 md:flex-nowrap">
             <div class="relative overflow-hidden rounded-[6.62px] w-full">
@@ -117,9 +120,9 @@
     <!-- Best Sellers Start -->
     <section class="overflow-hidden">
       <div class="container mx-auto">
-        <div class="flex flex-col px-4 py-8 gap-y-4 lg:py-20">
+        <div class="flex flex-col px-4 lg:px-8 py-8 gap-y-4 lg:py-20 lg:gap-8 font-[ubuntu]">
           <div class="flex justify-between items-baseline">
-            <h2 class="text-neutral-900 font-semibold text-2xl lg:text-5xl">Best Sellers</h2>
+            <h2 class="text-neutral-900 font-semibold text-2xl lg:text-5xl font-[lora]">Best Sellers</h2>
             <a href="#" class="text-primary-500 text-sm hover:text-primary-300 font-semibold lg:bg-primary-500 lg:text-neutral-900 lg:rounded-lg lg:px-8 lg:py-3 lg:hover:opacity-80 lg:hover:text-neutral-900">See All</a>
           </div>
           <div class="flex gap-x-2 w-[688px] md:w-full lg:gap-6">
@@ -197,9 +200,9 @@
     <!-- Order Start -->
     <section>
       <div class="container mx-auto">
-        <div class="flex flex-col gap-4 items-center py-6 mx-4 bg-primary-300 rounded-2xl justify-center lg:py-20 lg:gap-8">
-          <h2 class="text-neutral-900 text-2xl font-semibold lg:text-5xl">The Easy Way to Order</h2>
-          <div class="flex flex-col items-center lg:flex-row lg:gap-[30px] lg:w-[34rem]">
+        <div class="flex flex-col gap-4 items-center py-6 mx-4 lg:mx-8 bg-primary-300 rounded-2xl justify-center lg:py-20 lg:gap-8">
+          <h2 class="text-neutral-900 text-2xl font-semibold lg:text-5xl font-[lora]">The Easy Way to Order</h2>
+          <div class="flex flex-col items-center lg:flex-row lg:gap-[30px] lg:w-[34rem] font-[ubuntu]">
             <div class="flex gap-4 items-baseline w-full lg:flex-col lg:items-center lg:h-full">
               <div class="flex flex-col items-center relative lg:flex-row">
                 <span class="bg-primary-200 p-2 font-bold text-neutral-900 rounded-full w-[38px] h-[38px] text-center lg:text-xl lg:w-11 lg:h-11">1</span>
@@ -238,10 +241,10 @@
     <!-- Subscribe Start-->
     <section>
       <div class="container mx-auto">
-        <div class="flex flex-col gap-4 py-8 px-4 lg:py-20 lg:gap-8 lg:items-center">
-          <h2 class="text-neutral-900 text-2xl font-semibold lg:text-5xl">Subscribe to Our Newsletter</h2>
+        <div class="flex flex-col gap-4 py-8 px-4 lg:px-8 lg:py-20 lg:gap-8 lg:items-center">
+          <h2 class="text-neutral-900 text-2xl font-semibold lg:text-5xl font-[lora]">Subscribe to Our Newsletter</h2>
           <form class="flex gap-4 lg:w-[808px] lg:gap-6">
-            <input class="rounded-lg border border-neutral-300 w-full p-[10px] text-xs focus:outline-none focus:border-primary-300 h-9 lg:text-sm" placeholder="Enter your email"> 
+            <input class="rounded-lg border border-neutral-300 w-full p-[10px] text-xs focus:outline-none focus:border-primary-300 h-9 lg:text-sm font-[ubuntu]" placeholder="Enter your email"> 
             <button class="bg-primary-500 p-2 rounded-lg hover:opacity-70">
               <img src="./src/images/send.svg" alt="Send Email" class="w-6">
             </button>
@@ -254,7 +257,7 @@
     <!-- Footer Start -->
     <footer>
       <div class="container mx-auto">
-        <div class="flex flex-col gap-6 py-8 px-4 lg:py-20 lg:flex-row lg:justify-between">
+        <div class="flex flex-col gap-6 py-8 px-4 lg:px-8 lg:py-20 lg:flex-row lg:justify-between font-[ubuntu]">
           <div class="flex flex-col gap-4 lg:w-1/4">
             <img src="./src/images/logo.svg" alt="Brand Logo" class="max-w-[109px]">
             <p class="text-neutral-500 text-xs lg:text-base">We are an online fashion store that provides a variety of the latest and trendy fashion products for men and women. We always try to provide our customers with a pleasant and easy shopping experience.</p>
