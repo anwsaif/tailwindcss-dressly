@@ -65,7 +65,7 @@
           <div class="lg:w-1/2">
             <h1 class="text-[28px] font-semibold text-neutral-900 leading-[120%] mb-2 lg:text-[52.372px] lg:leading-[110%] tracking-[-1.047px] lg:mb-6">Discover the Latest Fashion Trends</h1>
             <p class="text-[14px] text-neutral-500 leading-[140%] mb-6 lg:mb-10 lg:text-base">From stylish dresses to trendy tops and must-have accessories, we have everything you need to stay on top of the latest fashion trends. Our expertly curated collection features the hottest styles from top designers, so you can always find the perfect look for any occasion. Shop now and discover your new favorite fashion pieces.</p>
-            <button class="w-full bg-primary-500 font-bold py-[10px] px-5 text-neutral-900 rounded-[8px] hover:bg-primary-300 lg:w-1/2">Shop Now</button>
+            <button class="w-full bg-primary-500 font-bold py-[10px] px-5 text-neutral-900 rounded-[8px] hover:opacity-80 lg:w-1/2">Shop Now</button>
           </div>
         </div>
       </div>
@@ -120,7 +120,7 @@
         <div class="flex flex-col px-4 py-8 gap-y-4 lg:py-20">
           <div class="flex justify-between items-baseline">
             <h2 class="text-neutral-900 font-semibold text-2xl lg:text-5xl">Best Sellers</h2>
-            <a href="#" class="text-primary-500 text-sm hover:text-primary-300 font-semibold lg:bg-primary-500 lg:text-neutral-900 lg:rounded-lg lg:px-8 lg:py-3 lg:hover:bg-primary-300 lg:hover:text-neutral-900">See All</a>
+            <a href="#" class="text-primary-500 text-sm hover:text-primary-300 font-semibold lg:bg-primary-500 lg:text-neutral-900 lg:rounded-lg lg:px-8 lg:py-3 lg:hover:opacity-80 lg:hover:text-neutral-900">See All</a>
           </div>
           <div class="flex gap-x-2 w-[688px] md:w-full lg:gap-6">
             <div class="rounded-lg border border-background-900 p-2 gap-2 flex flex-col w-1/4 lg:p-4 lg:gap-4">
@@ -234,6 +234,63 @@
       </div>
     </section>
     <!-- Order End -->
+
+    <!-- Subscribe Start-->
+    <section>
+      <div class="container mx-auto">
+        <div class="flex flex-col gap-4 py-8 px-4 lg:py-20 lg:gap-8 lg:items-center">
+          <h2 class="text-neutral-900 text-2xl font-semibold lg:text-5xl">Subscribe to Our Newsletter</h2>
+          <form class="flex gap-4 lg:w-[808px] lg:gap-6">
+            <input class="rounded-lg border border-neutral-300 w-full p-[10px] text-xs focus:outline-none focus:border-primary-300 h-9 lg:text-sm" placeholder="Enter your email"> 
+            <button class="bg-primary-500 p-2 rounded-lg hover:opacity-70">
+              <img src="./src/images/send.svg" alt="Send Email" class="w-6">
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Subscribe Start-->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="container mx-auto">
+        <div class="flex flex-col gap-6 py-8 px-4">
+          <div class="flex flex-col gap-4">
+            <img src="./src/images/logo.svg" alt="Brand Logo" class="max-w-[109px]">
+            <p class="text-neutral-500 text-xs">We are an online fashion store that provides a variety of the latest and trendy fashion products for men and women. We always try to provide our customers with a pleasant and easy shopping experience.</p>
+          </div>
+          <div class="flex flex-col gap-6">
+            <div class="flex flex-col gap-4">
+              <h3 class="font-medium text-neutral-900">Product Categories</h3>
+              <ul class="flex flex-col gap-2 font-normal text-xs text-neutral-500">
+                <li><a href="#">Women's Clothing</a></li>
+                <li><a href="#">Menswear</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Shoes</a></li>
+              </ul>
+            </div>
+            <div class="flex flex-col gap-4">
+              <h3 class="font-medium text-neutral-900">Company</h3>
+              <ul class="flex flex-col gap-2 font-normal text-xs text-neutral-500">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy & Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4">
+            <h3 class="text-neutral-900 font-medium">Download Our App</h3>
+            <div class="flex gap-2">
+              <img src="./src/images/app-store.png" alt="Download on the App Store">
+              <img src="./src/images/play-store.png" alt="Get it on Play Store">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
     <script src="./src/js/script.js">
     </script>
   </body>

@@ -30,4 +30,7 @@
   #nav-menu li {
     @apply mb-3 hover:text-primary-500 lg:mb-0;
   } 
+  footer ul li:hover {
+    @apply text-primary-500;
+  }
 }
