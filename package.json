@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "serv": "php -S localhost:8000"
+    "serv": "php -S localhost:8000",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --minify"
   },
   "author": "",
   "license": "CC-BY-1.0",
